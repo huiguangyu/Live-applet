@@ -1,0 +1,25 @@
+<import src="../../template/card/card.wxml" />
+<view class="page">
+  <!-- 轮播 -->
+  <swiper indicator-dots indicator-color="rgba(0,0,0,0.2)" indicator-active-color="#c1c1c1" autoplay interval="5000" class="head-swiper">
+    <block wx:for="{{imgUrls}}" wx:key="{{item.id}}">
+      <swiper-item style="position:relative;">
+        <image src="{{item.url}}" class="slide-image" height="500" mode="widthFix" style="width:100%" bindtap='golive' />
+        <view class="head-title">
+          <image src="/images/live.png" class="head-live"></image>
+          <view class="title">
+            <text>-</text> {{item.title}}</view>
+        </view>
+      </swiper-item>
+    </block>
+  </swiper>
+  <!-- 分类 -->
+  <view class="section" wx:for="{{list}}" wx:key="{{item.labelId}}">
+    <view class="label-name" bindtap='golive'>
+      <text>{{item.label}}</text>
+      <image src="/images/more.png" class="more" bindtap='detail'></image>
+    </view>
+    <!-- card -->
+    <template is="card" data="{{data: item.data}}"></template>
+  </view>
+</view>

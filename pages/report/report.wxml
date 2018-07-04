@@ -1,0 +1,21 @@
+<view class='page' style='height:{{winheight}}px'>
+  <view class="report_block">
+    <view wx:for="{{label}}" wx:key="title" class="report_block-label {{item.status?'report_block-label-color':''}}" data-status="{{item.status}}" data-index="{{index}}" bindtap='reportLabel' data-label="{{item.title}}">
+      {{item.title}}
+    </view>
+  </view>
+
+   <form bindsubmit="bindFormSubmit" class='advice-form'>
+     <textarea placeholder="请写下您的意见或者建议" name="textarea" focus='true' class='advice' bindinput='reportContent' /> 
+    <button form-type="submit" type='primary' bindtap='commit' class="submit">
+        提交
+    </button>  
+  </form> 
+   <view class='advice-text'>
+    <text>小贴士</text>
+    <text>请详细描述您举报该主播的原因,我们将第一时间处理</text>
+    <text>工作时间:0:00-24:00
+    <text>客服QQ：1439552119</text>
+    </text>
+  </view> 
+</view>

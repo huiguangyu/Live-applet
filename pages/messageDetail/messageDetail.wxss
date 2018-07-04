@@ -1,0 +1,62 @@
+.page {
+  background: #f2f2f2;
+}
+
+.page::before {
+  content: '';
+  display: table;
+}
+
+.messagee-box {
+  margin-top: 40rpx;
+}
+
+.card {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.avatar {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+  margin-left: 20rpx;
+}
+
+.message {
+  width: 60%;
+  box-sizing: border-box;
+  position: relative;
+  padding: 20rpx;
+  margin-left: 40rpx;
+  margin-top: 40rpx;
+  font-size: 28rpx;
+  background-color: #fff;
+}
+
+.triangle{
+position: absolute;
+width: 0;
+height: 0;
+left: -14px;
+top: 4rpx;
+border-top: 10px solid transparent; 
+border-right: 20px solid #ffffff; 
+border-bottom: 10px solid transparent;
+}
+
+.date {
+  display: flex;
+  justify-content: center;
+  margin-top: 20rpx;
+}
+
+.time {
+  padding: 4px 10px;
+  background-color: rgba(0,0,0,0.2);
+  color: #ffffff;
+  border-radius: 20px;
+  font-size: 24rpx;
+}

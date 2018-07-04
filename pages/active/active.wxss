@@ -1,0 +1,103 @@
+@import '../../style/weui.wxss';
+
+.box {
+  width: 100%;
+  min-height: 670px;
+  background: #f2f2f2;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+.box:before {
+  content: '';
+  display: table;
+}
+
+.active-content {
+  width: 96%;
+  margin: 10px auto;
+  border: 1px solid #e8e8e8;
+  background: #fff;
+  box-sizing: border-box;
+}
+
+.active-list {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  box-sizing: border-box;
+}
+
+.active-img {
+  width: 100%;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.active-info {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.active-info .title {
+  width: 100%;
+  padding: 0 14px;
+  overflow: hidden;
+  text-align: center;
+  color: white;
+  font-size: 32rpx;
+  box-sizing: border-box;
+}
+
+.active-info .time {
+  text-align: center;
+  color: white;
+  margin-top: 10px;
+  font-size: 24rpx;
+}
+
+.distance {
+  margin-left: 4px;
+}
+
+.awrad {
+  position: absolute;
+  bottom: 6px;
+  left: 0;
+  width: 100%;
+  padding: 0 10px;
+  overflow: hidden;
+  font-size: 24rpx;
+  color: #fff;
+}
+
+.active-user {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 6px;
+  margin: 14px 0;
+}
+
+.active-username {
+  font-size: 28rpx;
+  color: #5b5b5b;
+}
+
+.active-logo {
+  width: 80px;
+  height: 40px;
+  background: #fff;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+}

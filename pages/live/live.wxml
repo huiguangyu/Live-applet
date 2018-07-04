@@ -1,0 +1,100 @@
+<view>
+  <!-- 播放区域 -->
+  <view class="live-box">
+    <video class="player" id="myVideo" src="http://wxsnsdy.tc.qq.com/105/20210/snsdyvideodownload?filekey=30280201010421301f0201690402534804102ca905ce620b1241b726bc41dcff44e00204012882540400&bizid=1023&hy=SH&fileparam=302c020101042530230204136ffd93020457e3c4ff02024ef202031e8d7f02030f42400204045a320a0201000400"
+      danmu-list="{{danmuList}}" enable-danmu danmu-btn controls page-gesture></video>
+  </view>
+  <!-- 弹幕 -->
+  <view class="weui-tab">
+    <view class="weui-navbar">
+      <block wx:for="{{tabs}}" wx:key="*this">
+        <view id="{{index}}" class="weui-navbar__item {{activeIndex == index ? 'weui-bar__item_on' : ''}}" bindtap="tabClick">
+          <view class="weui-navbar__title">{{item}}</view>
+        </view>
+      </block>
+      <view class="weui-navbar__slider" style="left: {{sliderLeft}}px; transform: translateX({{sliderOffset}}px); -webkit-transform: translateX({{sliderOffset}}px);"></view>
+    </view>
+    <view class="weui-tab__panel">
+      <view class="weui-tab__content" hidden="{{activeIndex != 0}}">
+        <!-- 提示 -->
+        <view class="promt">
+          本直播平台提倡绿色直播，禁止任何传播违法、违规、低俗、暴力等不良信息的行为。
+        </view>
+        <!-- 聊天 -->
+        <view style="height:{{commentHeight}}px" class="comment">
+          <view class="comment-list" wx:for="{{commentList}}" wx:key="{{*this}}">
+            <text class="name">{{item.name}}</text>:
+            <text>{{item.info}}</text>
+          </view>
+        </view>
+        <!-- 发送弹幕 -->
+        <view class="send">
+          <!-- 徽章 -->
+          <image src="/images/hz.png" class="icon"></image>
+          <view class="write">
+            <input class="input" placeholder='发个弹幕呗亲~'></input>
+            <view class="ok" bindtap='send'>
+              <text class="fa fa-arrow-right"></text>
+            </view>
+          </view>
+          <image src="/images/lw.png" class="icon"></image>
+        </view>
+      </view>
+      <!-- 主播 -->
+      <view class="weui-tab__content" hidden="{{activeIndex != 1}}" style="min-height:{{height-292}}px;background-color:#f2f2f2;">
+        <view class="userInfo">
+          <view class="left">
+            <image src="/images/6.png" class="avatar"></image>
+            <view class="info">
+              <view class="username">大嘴</view>
+              <view class="card">房间ID :
+                <text>432234</text>
+              </view>
+              <view class="gift">
+                <text>礼物 : 1002</text>
+                <text class="fans">粉丝 : 1.3w</text>
+              </view>
+            </view>
+          </view>
+          <view class="right">
+            <view class="attention">
+              <text class="fa fa-plus"></text>
+              <text>订阅</text>
+            </view>
+            <!-- <view class="okAttention">
+              <text>已订阅</text>
+            </view> -->
+          </view>
+        </view>
+        <!-- 直播通知 -->
+        <view class="notice">
+          直播通知群：(1439552119)已满,2群（1213323432),开播会在群里通知。
+        </view>
+        <!-- 操作 -->
+        <view class="operation">
+          <text>相关操作</text>
+          <image src="/images/elipsis.png" class="elipsis" bindtap='pop'></image>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
+
+<view class="pop" wx:if="{{pop}}">
+  <!-- 分享 -->
+  <view class="flex">
+    <image src="/images/wechat.png" class="report" bindtap='share'></image>
+    <text>分享</text>
+    <button class="share-btn" open-type='share'></button>
+  </view>
+  <!-- 举报 -->
+  <view class="flex">
+    <image src="/images/report.png" class="report" bindtap='report'></image>
+    <text>举报</text>
+  </view>
+   <!-- 取消 -->
+  <view class="flex" bindtap='close'>
+    <image src="/images/close.png" class="report"></image>
+    <text>取消</text>
+  </view>
+</view>

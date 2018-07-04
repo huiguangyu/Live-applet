@@ -1,0 +1,95 @@
+.head {
+  width: 100%;
+  height: 200px;
+  font-size: 28rpx;
+}
+
+.head-pictrue {
+  width: 100%;
+  height: 200px;
+}
+
+.usercenter-head {
+  width: 168rpx;
+  height: 168rpx;
+  border-radius: 50%;
+  position: absolute;
+  top: 320rpx;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #fff;
+}
+
+.use-avatar {
+  width: 160rpx;
+  height: 160rpx;
+  border-radius: 50%;
+  margin: 4rpx 0 0 4rpx;
+}
+
+.usercenter {
+  margin-top: 80rpx;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 20rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: center;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+
+.ID {
+  width: 100%;
+  text-align: center;
+  font-size: 28rpx;
+}
+
+.myfa {
+  display: inline-block;
+  font: normal normal normal 18px/1 fa !important;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.gift {
+  text-align: center;
+  font-size: 28rpx;
+  color: #999;
+  margin: 20rpx;
+}
+
+.more {
+  width: 16px;
+  height: 16px;
+}
+
+.list {
+  width: 100%;
+  font-size: 28rpx;
+  margin: 20rpx auto;
+  background: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 20rpx;
+  color: #1e3c44;
+}
+
+.change {
+  position: absolute;
+   top: 205px;
+  right: 10rpx;
+  width: 140rpx;
+  height: 60rpx;
+  border-radius: 6rpx;
+  background-color: rgba(0,0,0,0.4);
+  color: #ffffff;
+  font-size: 28rpx;
+  text-align: center;
+  line-height: 60rpx;
+}

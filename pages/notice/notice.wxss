@@ -1,0 +1,28 @@
+.page::before {
+  content: '';
+  display: table;
+}
+
+.page {
+  background-color: #f9f9f9;
+  font-size: 28rpx;
+}
+
+.title {
+  width: 96%;
+  margin: 20rpx auto 0;
+  padding-bottom: 20rpx;
+  border-bottom: 1px solid #e6e6e6;
+  font-size: 32rpx;
+  font-weight: 600;
+}
+
+.content {
+  width: 96%;
+  margin: auto;
+  text-align: justify;
+}
+
+.margin-top-10{
+  margin-top: 20rpx;
+} 

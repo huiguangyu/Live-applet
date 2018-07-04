@@ -1,0 +1,98 @@
+.page {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #f9f9f9;
+  font-size: 28rpx;
+}
+
+.head {
+  width: 100%;
+  height: 80rpx;
+  line-height: 80rpx;
+  margin-top: 20rpx;
+  text-align: center;
+  font-size: 32rpx;
+  background-color: #fff;
+}
+
+.card {
+  width: 92%;
+  margin: 20rpx auto;
+  box-sizing: border-box;
+  padding: 10rpx;
+  background: #fff;
+}
+
+.myfa {
+  display: inline-block;
+  font: normal normal normal 40px/1 fa !important;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.tel {
+  padding: 10rpx 20rpx 8rpx;
+  border-bottom: 1px solid #e6e6e6;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.code-btn{
+  position: absolute;
+  top: 10rpx;
+  right: 0;
+  height: 80rpx;
+  width: 100px;
+  text-align: center;
+  line-height: 80rpx;
+  color: #ffffff;
+  background: #15b111;
+  font-size: 24rpx;
+}
+
+
+.tel .write {
+  width: 70%;
+  margin-left: 20rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+}
+
+.code {
+  padding: 10rpx 20rpx 8rpx;
+  display: flex;
+  align-items: center;
+}
+
+.code .ma {
+  width: 70%;
+  height: 60rpx;
+  line-height: 60rpx;
+}
+
+.next {
+  width: 92%;
+  margin: 40rpx auto;
+  height: 80rpx;
+  line-height: 80rpx;
+  text-align: center;
+  color: #fff;
+  background: #15b111;
+  font-size: 28rpx;
+}
+
+.checked {
+  width: 92%;
+  margin: auto;
+}
+
+ .choose {
+  width: 10px;
+  height: 10px;
+}

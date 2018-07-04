@@ -1,0 +1,6 @@
+@import '../../template/card/card.wxss';
+
+.page {
+  padding-top: 20rpx;
+  background-color: #f2f2f2;
+}

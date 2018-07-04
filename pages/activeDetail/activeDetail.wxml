@@ -1,0 +1,2 @@
+<import src="../../template/card/card.wxml" />
+<template is="activeCard" data="{{data: list,activeName}}"></template>

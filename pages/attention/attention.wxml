@@ -1,0 +1,19 @@
+<view class="page" class="page" style="min-height: {{height}}px">
+  <view class="box">
+    <view class="list">
+     <image src="/images/live.png" class="live"></image>
+      <image src="/images/2.png" class="cover" bindtap='detail'></image>
+      <view class="info">
+        <view class="title">王者荣耀</view>
+        <view class="user">
+          <view class="name">
+            <text>主播 : <text>千与千寻</text></text>
+          </view>
+          <view class="people">人气 :
+            <text>12w</text>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

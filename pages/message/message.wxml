@@ -1,0 +1,16 @@
+<view class="page" style="height:{{height}}px">
+  <view class="message-list" wx:for="{{list}}" wx:key="{{item.id}}" bindtap='messageDetail'>
+    <view class="list-left">
+      <image class="avatar" src="{{item.avatar}}"></image>
+      <view>
+        <view class="user">
+          <text>{{item.name}}</text>
+          <text class="role" wx:if="{{item.status}}">官方</text>
+        </view>
+        <view class="message">{{item.message}}</view>
+      </view>
+    </view>
+    <!-- 时间 -->
+    <view class="time">{{item.time}}</view>
+  </view>
+</view>

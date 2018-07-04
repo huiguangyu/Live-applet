@@ -1,0 +1,64 @@
+.card {
+  width: 98%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.card-item {
+  width: 49%;
+  height: 320rpx;
+  position: relative;
+  background: #fff;
+  border-radius: 6rpx;
+  margin-bottom: 2%;
+}
+
+.card-item .active {
+  position: absolute;
+  top: 10rpx;
+  right: 12rpx;
+  padding: 4px 8px;
+  border-radius: 8rpx;
+ font-size: 24rpx;
+ color: #ffffff;
+ background-color: rgb(41,175,233); 
+}
+
+.card-item .pictrue {
+  width: 100%;
+}
+
+.card-item .title {
+  box-sizing: border-box;
+  padding: 0 20rpx;
+  margin: 10rpx 0;
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  font-size: 26rpx;
+}
+
+.card-item .userinfo {
+  box-sizing: border-box;
+  padding: 0 20rpx;
+  margin-bottom: 10rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 24rpx;
+  color: #c1c1c1;
+}
+
+.card-item .username {
+  width: 100px;
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+}

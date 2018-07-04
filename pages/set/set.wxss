@@ -1,0 +1,22 @@
+.page::before {
+  content: '';
+  display: table;
+}
+
+.more {
+  width: 16px;
+  height: 16px;
+}
+
+.list {
+  width: 100%;
+  font-size: 28rpx;
+  margin: 20rpx auto;
+  background: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 20rpx;
+  color: #1e3c44;
+}

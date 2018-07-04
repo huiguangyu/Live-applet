@@ -1,0 +1,18 @@
+<view style="height: {{height}}px;background-color: #f2f2f2;" class="page">
+  <view class="list" bindtap='userinfo'>
+    <text>个人信息</text>
+    <image class="icon" src="/images/more.png" class="more"></image>
+  </view>
+  <view class="list" bindtap='feedback'>
+    <text>意见反馈</text>
+    <image class="icon" src="/images/more.png" class="more"></image>
+  </view>
+   <view class="list" bindtap='notice'>
+    <text>平台公告</text>
+    <image class="icon" src="/images/more.png" class="more"></image>
+  </view>
+   <view class="list" bindtap='about'>
+    <text>关于我们</text>
+    <image class="icon" src="/images/more.png" class="more"></image>
+  </view>
+</view>

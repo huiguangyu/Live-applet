@@ -1,0 +1,57 @@
+/* 绿色#15b111 */
+
+/* 箭头#c1c1c1 */
+
+/* 分割线#e5e5e5 */
+
+@import '../../template/card/card.wxss';
+.page {
+  background-color: #f2f2f2;
+}
+
+.head-swiper {
+  height: 400rpx;
+}
+
+.head-title {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 40px;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.head-live {
+  width: 48px;
+  height: 48px;
+  margin: 0 40rpx 0 30rpx;
+}
+
+.head-title .title {
+  font-size: 28rpx;
+  color: #fff;
+}
+
+.section {
+  padding-bottom: 20rpx;
+  border-bottom: 1px solid #e5e5e5;
+  font-size: 28rpx;
+}
+
+.section .label-name {
+  box-sizing: border-box;
+  margin: 30rpx auto;
+  padding: 0 30rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section .more {
+  width: 16px;
+  height: 16px;
+}

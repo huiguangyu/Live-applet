@@ -1,0 +1,67 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/validate/validate",
+    "pages/identity-validate/identity",
+    "pages/attention/attention",
+    "pages/usercenter/usercenter",
+    "pages/active/active",
+    "template/card/card",
+    "pages/detail/detail",
+    "pages/live/live",
+    "pages/activeDetail/activeDetail",
+    "pages/message/message",
+    "pages/messageDetail/messageDetail",
+    "pages/apply/apply",
+    "pages/edit/edit",
+    "pages/set/set",
+    "pages/userinfo/userinfo",
+    "pages/feedback/feedback",
+    "pages/abount/abount",
+    "pages/notice/notice",
+    "pages/authentication/authentication",
+    "pages/report/report"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#1e3c44",
+    "navigationBarTitleText": "光辉直播",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#15b111",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/home.png",
+        "text": "首页",
+        "selectedIconPath": "images/selectHome.png"
+      },
+      {
+        "pagePath": "pages/active/active",
+        "iconPath": "images/active.png",
+        "text": "活动",
+        "selectedIconPath": "images/selectActive.png"
+      },
+      {
+        "pagePath": "pages/message/message",
+        "iconPath": "images/bell.png",
+        "text": "消息",
+        "selectedIconPath": "images/selectBell.png"
+      },
+      {
+        "pagePath": "pages/attention/attention",
+        "iconPath": "images/attention.png",
+        "text": "关注",
+        "selectedIconPath": "images/selectAttention.png"
+      },
+      {
+        "pagePath": "pages/usercenter/usercenter",
+        "iconPath": "images/user.png",
+        "text": "个人中心",
+        "selectedIconPath": "images/selectUser.png"
+      }
+    ]
+  }
+}

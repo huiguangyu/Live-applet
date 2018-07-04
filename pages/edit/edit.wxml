@@ -1,0 +1,4 @@
+<view class="page">
+  <textarea placeholder='编辑直播公告亲~' maxlength="500" focus class="notice" bindconfirm="submit" bindinput='notice'></textarea>
+   <!-- <button class="submit" bindtap='submit'>确定</button>  -->
+</view>

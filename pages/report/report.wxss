@@ -1,0 +1,71 @@
+.page::before {
+  content: '';
+  display: table-cell;
+}
+
+.report_block {
+  height: 60px;
+  width: 100%;
+  padding: 20rpx;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 18rpx;
+  background: #fff;
+  color: #c1c1c1;
+}
+
+.report_block-label {
+  padding: 6px 12px;
+  border: 1px solid #e6e6e6;
+  border-radius: 20px;
+  font-size: 24rpx;
+  color: #999;
+  background: #fff;
+}
+
+.report_block-label-color{
+  border: 1px solid #15b111;
+}
+
+.advice-form{
+  font-size: 24rpx;
+  color: #909090;
+}
+
+.advice{
+  padding: 20rpx;
+  width: 96%;
+  margin: auto;
+  height: 200rpx;
+  background: #fff;
+  font-size: 28rpx;
+  color: #909090;
+  box-sizing: border-box;
+  border: 1px solid #e6e6e6;
+  border-radius: 4rpx;
+}
+
+
+ .advice-text{
+  padding: 10rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  font-size: 24rpx;
+  color: #909090;
+  
+} 
+
+.submit {
+  width: 96%;
+  margin: 20rpx auto;
+  height: 80rpx;
+  text-align: center;
+  line-height: 80rpx;
+  border-radius: 20px;
+  color: #ffffff;
+  background-color: rgb(28,211,155);
+}

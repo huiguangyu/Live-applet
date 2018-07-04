@@ -1,0 +1,27 @@
+.page {
+  position: relative;
+}
+
+.notice {
+  width: 100%;
+  font-size: 28rpx;
+  height: 100px;
+  border-bottom: 1px solid #e6e6e6;
+  box-sizing: border-box;
+  padding: 20rpx;
+}
+
+.placeHolder{
+  font-size: 28rpx;
+  color: #c1c1c1;
+}
+
+.submit{
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  color: #1e3c44;
+  height: 40px;
+}

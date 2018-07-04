@@ -1,0 +1,4 @@
+<import src="../../template/card/card.wxml" />
+<view class="page" style="min-height:{{height}}px">
+  <template is="card" data="{{data: list}}"></template>
+</view>

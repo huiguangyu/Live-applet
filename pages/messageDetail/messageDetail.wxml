@@ -1,0 +1,16 @@
+<view class="page" style="height:{{height}}px">
+  <view class="messagee-box">
+    <!-- 信息 -->
+    <view class="card">
+      <image class="avatar" src="/images/3.png" mode='aspectFill'></image>
+      <view class="message">
+        吃鸡游戏免下载，打开网页就能玩！ 低配电脑玩吃鸡？So Easy！吃鸡网页版，只要电脑能开机！达到3级即可直接进入吃鸡决赛圈！熊猫游戏平台，欢乐无极限！
+        <view class="triangle"></view>
+      </view>
+    </view>
+    <!-- 时间 -->
+    <view class="date">
+      <view class="time">2017-05-21 08:09:22</view>
+    </view>
+  </view>
+</view>

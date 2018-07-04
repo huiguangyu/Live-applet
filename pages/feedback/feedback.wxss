@@ -1,0 +1,42 @@
+.page::before {
+  content: '';
+  display: table;
+}
+
+.page {
+  background-color: #f2f2f2;
+  font-size: 28rpx;
+  color: #666;
+}
+
+.box {
+  box-sizing: border-box;
+  width: 92%;
+  margin: 30rpx auto;
+  height: 240px;
+  padding: 20rpx;
+  border: 1px solid #e6e6e6;
+  box-shadow: 0 0 2px #666;
+}
+
+.submit {
+  width: 92%;
+  margin: 0 auto 20rpx;
+  height: 80rpx;
+  text-align: center;
+  line-height: 80rpx;
+  border-radius: 20px;
+  color: #ffffff;
+  background-color: rgb(28,211,155);
+}
+
+
+.promt {
+  width: 92%;
+  margin: 8rpx auto;
+  font-size: 24rpx; 
+}
+
+.promt .qq{
+  text-decoration: underline;
+}

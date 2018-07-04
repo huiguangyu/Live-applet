@@ -1,0 +1,25 @@
+.page::before {
+  content: '';
+  display: table;
+}
+
+.page {
+  background-color: #f2f2f2;
+  font-size: 28rpx;
+}
+
+.title {
+  margin: 20rpx;
+  text-align: center;
+  color: #666666;
+}
+
+.name {
+  width: 96%;
+  box-sizing: border-box;
+  margin: auto;
+  height: 72rpx;
+  padding: 8rpx 12rpx;
+  background-color: #fff;
+  color: #333333;
+}

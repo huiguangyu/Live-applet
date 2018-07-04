@@ -1,0 +1,227 @@
+@import '../../style/weui.wxss';
+
+.live-box {
+  width: 100%;
+  height: 240px;
+}
+
+.live-box .player {
+  width: 100%;
+  height: 240px;
+}
+
+.weui-tab__content {
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.promt {
+  margin: 20rpx;
+  color: #15b111;
+  height: 100rpx;
+  font-size: 28rpx;
+  text-align: justify;
+}
+
+.comment {
+  overflow-y: auto;
+}
+
+.comment-list {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 20rpx;
+  margin-bottom: 20rpx;
+  font-size: 28rpx;
+  text-align: left;
+}
+
+.name {
+  color: #15b111;
+}
+
+.send {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100rpx;
+  box-sizing: border-box;
+  padding: 0 20rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f2f2f2;
+}
+
+.send .write {
+  width: 80%;
+  height: 72rpx;
+  line-height: 72rpx;
+  border-radius: 20px;
+  background: white;
+  position: relative;
+}
+
+.write .input {
+  width: 90%;
+  height: 72rpx;
+  font-size: 28rpx;
+  color: #333;
+  padding-left: 8rpx;
+  margin-left: 10rpx;
+}
+
+.ok {
+  padding-left: 30rpx;
+  border-left: 1px solid #e6e6e6; 
+  position: absolute;
+  top:-6rpx;
+  right: 30rpx;
+  text-align: center;
+  color: #c1c1c1;
+}
+
+.send .icon {
+  width: 32px;
+  height: 32px;
+}
+
+.elipsis {
+  width: 24px;
+  height: 24px;
+}
+
+/* 主播 */
+
+.userInfo {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 30rpx 20rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #e6e6e6;
+  background-color: #fff;
+}
+
+.userInfo .left {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.userInfo .left .avatar {
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 50%;
+  margin-right: 20rpx;
+}
+
+.userInfo .info {
+  font-size: 28rpx;
+  text-align: left;
+}
+
+.userInfo .left .username {
+  font-size: 36rpx;
+  margin-bottom: 8rpx;
+  font-weight: 600;
+}
+
+.userInfo .card {
+  margin-bottom: 8rpx;
+}
+
+.userInfo .gift {
+  font-size: 26rpx;
+  color: #c1c1c1;
+}
+
+.userInfo .gift .fans {
+  margin-left: 20rpx;
+}
+
+.userInfo .attention {
+  width: 80px;
+  height: 70rpx;
+  line-height: 70rpx;
+  border-radius: 20px;
+  font-size: 28rpx;
+  color: #fff;
+  background-color: rgb(34, 208, 158);
+}
+
+.userInfo .okAttention {
+  width: 80px;
+  height: 70rpx;
+  line-height: 70rpx;
+  border-radius: 20px;
+  font-size: 28rpx;
+  color: #555;
+  background-color: #e6e6e6;
+}
+
+.notice {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 20rpx;
+  text-align: justify;
+  font-size: 28rpx;
+  border-bottom: 1px solid #e6e6e6;
+  background-color: #fff;
+}
+
+.operation {
+  width: 100%;
+  height: 40px;
+  font-size: 28rpx;
+  box-sizing: border-box;
+  padding: 0 20rpx;
+  margin: 10rpx 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #000;
+  background: #fff;
+}
+
+.pop {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 140rpx;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-top: 1px solid #e6e6e6;
+  background: #ffffff;
+}
+
+.report {
+  width: 32px;
+  height: 32px;
+  margin-top:6rpx;
+  margin-bottom: 4rpx;
+}
+
+.pop .flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 28rpx;
+  color: #c1c1c1;
+  position:relative;
+}
+
+
+
+.share-btn{
+  position: absolute;
+  top:0;
+  left:0;
+  bottom:0;
+  right:0;
+  opacity: 0;
+}

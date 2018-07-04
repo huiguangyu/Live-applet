@@ -1,0 +1,6 @@
+<view style="height: {{height}}px;background-color: #f2f2f2;" class="page">
+    <textarea class="box" placeholder='想要什么新功能？使用体验不好？在这里吐槽吧！' bindinput='feedback'></textarea> 
+    <button class="submit" bindtap='submit'>提交</button>
+    <view class="promt">如果你在使用时出现急需解决的问题</view>
+    <view class="promt">也可以直接联系客服QQ: <text class="qq">1439552119</text></view>
+</view>

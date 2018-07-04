@@ -1,0 +1,15 @@
+<view class="page">
+  <view class="head">验证手机号码</view>
+  <!-- 验证区 -->
+  <view class="card">
+    <view class="tel">
+      <text class="myfa fa-mobile" style="color: #15b111;"></text>
+      <input class="write" focus placeholder='手机号'></input>
+      <button class="code-btn">发送验证码</button>
+    </view>
+    <view class="code">
+      <input class="ma"  placeholder='验证码'></input>
+    </view>
+  </view>
+  <button class="next" bindtap='next'>下一步</button>
+</view> 

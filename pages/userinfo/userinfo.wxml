@@ -1,0 +1,4 @@
+<view class="page" style="height: {{height}}px;">
+  <view class="title">修改用户名</view>
+  <input class="name" placeholder='用户名不长于8个字' bindconfirm='name' focus confirm-type="确定" bindinput="change"></input>
+</view>

@@ -1,0 +1,64 @@
+.page {
+  background: #f2f2f2;
+}
+
+.page::before {
+  content: '';
+  display: table;
+}
+
+.message-list {
+  width: 96%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40rpx auto;
+  font-size: 28rpx;
+  padding: 20rpx;
+  background-color: #fff;
+}
+
+.list-left {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.message-list .avatar {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+}
+
+.message-list .user {
+  margin-left: 8rpx;
+  font-weight: 600;
+}
+
+.message-list .message {
+  margin-left: 8rpx;
+  margin-top: 8rpx;
+  color: #c1c1c1;
+  width: 200px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp:1;
+  -webkit-box-orient: vertical;
+}
+
+.role {
+  display: inline-block;
+  padding: 4rpx 8rpx;
+  font-size: 24rpx;
+  border-radius: 4rpx;
+  color: #ffffff;
+  background-color: #15b111;
+  margin-left: 8rpx;
+}
+
+.time {
+  font-size: 24rpx;
+  color: #c1c1c1;
+}

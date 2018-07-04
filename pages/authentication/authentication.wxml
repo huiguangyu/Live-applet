@@ -1,0 +1,8 @@
+<view class="page">
+  <view class="content">
+    <view style="text-align:center;">阅读
+      <text class="agreement" bindtap='agreement'>《光辉直播主播条议》</text>
+    </view>
+    <view class="btn" bindtap='validate'>已阅读,开始实名认证</view>
+  </view>
+</view>

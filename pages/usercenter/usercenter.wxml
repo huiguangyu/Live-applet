@@ -1,0 +1,40 @@
+<view style="background:#f9f9f9;padding-bottom: 20rpx;min-height:{{height}}px">
+  <view class="head">
+    <image class="head-pictrue" mode="aspectFill" src="{{imgUrl}}"></image>
+    <view class="usercenter-head">
+      <image src="/images/3.png" mode="aspectFill" class="use-avatar"></image>
+    </view>
+    <view class="change" bindtap='change'>更换背景</view>
+  </view>
+  <view class="usercenter">許你一世</view>
+  <view class="ID">
+    <text>房间ID：</text>
+    <text>12321</text>
+  </view>
+  <view class="gift">
+    <text class="myfa fa-gift" style="color:#15b111;"></text>
+    <text>礼物: 2000</text>
+    <text class="myfa fa-heart" style="color:HotPink;margin-left: 20rpx;"></text>
+    <text>粉丝：1.2w</text>
+  </view>
+  <view class="list" bindtap='authentication'>
+    <text>申请直播</text>
+    <image class="icon" src="/images/more.png" class="more"></image>
+  </view>
+  <view class="list" bindtap='edit'>
+    <text>编辑通知</text>
+    <image class="icon" src="/images/more.png" class="more"></image>
+  </view>
+  <view class="list" bindtap='pay'>
+    <text>充值</text>
+    <image class="icon" src="/images/more.png" class="more"></image>
+  </view>
+  <!-- <view class="list">
+    <text>提现</text>
+    <image class="icon" src="/images/more.png" class="more"></image>
+  </view> -->
+  <view class="list" bindtap='set'>
+    <text>设置</text>
+    <image class="icon" src="/images/more.png" class="more"></image>
+  </view>
+</view>

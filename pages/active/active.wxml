@@ -1,0 +1,21 @@
+<view wx:for="{{list}}" wx:key="{{*this}}">
+  <view class='active-content' bindtap='detail'>
+    <view class='active-list'>
+      <view class='active-img' mode="aspectFill" style="background-image:url('{{item.activityPicture}}')"></view>
+      <view class='active-info'>
+        <view>
+          <view class='title'>{{item.title}}</view>
+        </view>
+        <view class='awrad' wx:if="{{item.host}}">
+          <text class='fa fa-trophy'></text>
+          <text class='distance'>{{item.host}}</text>
+        </view>
+      </view>
+    </view>
+    <view class='active-user' wx:if="{{item.sponsor}}">
+      <view class='active-username'>
+        <text>{{item.sponsor}}</text>
+      </view>
+    </view>
+  </view>
+</view>
